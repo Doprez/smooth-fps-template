@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstPersonShooter.Windows", "FirstPersonShooter.Windows\FirstPersonShooter.Windows.csproj", "{76C4DC84-8269-444C-A1E6-DD8EFAF57668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstPersonShooter.Game", "FirstPersonShooter.Game\FirstPersonShooter.Game.csproj", "{D6C21FF7-D393-4CB7-BDE8-A9EA68D56DC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C4DC84-8269-444C-A1E6-DD8EFAF57668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C4DC84-8269-444C-A1E6-DD8EFAF57668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C4DC84-8269-444C-A1E6-DD8EFAF57668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C4DC84-8269-444C-A1E6-DD8EFAF57668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C21FF7-D393-4CB7-BDE8-A9EA68D56DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C21FF7-D393-4CB7-BDE8-A9EA68D56DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C21FF7-D393-4CB7-BDE8-A9EA68D56DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C21FF7-D393-4CB7-BDE8-A9EA68D56DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD2447F2-7B5B-43CA-95BA-AF31AC769E4A}
+	EndGlobalSection
+EndGlobal
