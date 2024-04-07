@@ -2522,7 +2522,7 @@ Hierarchy:
                     b63c55b5c029fee8e8bae8987678b10f: !SmoothFollowAndRotate
                         Id: 44489b96-30e6-4f69-a5b2-7e0cb2928071
                         EntityToFollow: ref!! 200326b8-1a82-419c-aa3e-1681c7c1e9a6
-                        Speed: 25.0
+                        Speed: 20.0
         -   Entity:
                 Id: 4ac16211-9c81-4929-9df1-753678c4eb02
                 Name: Wall0x2x2
@@ -4086,7 +4086,7 @@ Hierarchy:
                         Type: !LightDirectional
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
-                            Shadow:
+                            Shadow: !LightDirectionalShadowMap
                                 Enabled: true
                                 Filter: !LightShadowMapFilterTypePcf
                                     FilterSize: Filter5x5
@@ -6191,7 +6191,7 @@ Hierarchy:
                             UVScale: {X: 1.0, Y: 1.0}
                             UVOffset: {X: 0.0, Y: 0.0}
                             TransitionArea: 0.7
-                            Shadow:
+                            Shadow: !LightStandardShadowMap
                                 BiasParameters:
                                     DepthBias: 0.001
                         Intensity: 100.0

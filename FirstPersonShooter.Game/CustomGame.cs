@@ -10,8 +10,8 @@ public class CustomGame : Game
 		base.BeginRun();
 
 
-		WindowMinimumUpdateRate.MinimumElapsedTime = TimeSpan.FromMilliseconds(1000f / 100f); // set to screen refresh rate
-		MinimizedMinimumUpdateRate.MinimumElapsedTime = TimeSpan.FromMilliseconds(1000f / 100f); // set to screen refresh rate
+		WindowMinimumUpdateRate.MinimumElapsedTime = TimeSpan.Zero; // set to screen refresh rate
+		GraphicsDevice.Presenter.PresentInterval = Stride.Graphics.PresentInterval.Immediate;
 
 		Settings.Configurations.Get<RenderingSettings>().DefaultBackBufferHeight = 1080; // set to screen res
 		Settings.Configurations.Get<RenderingSettings>().DefaultBackBufferWidth = 1920; // set to screen res
